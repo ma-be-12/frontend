@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --acb-bg: #0b0f19;
+  --acb-surface: #111827;
+  --acb-gold: #d4a017;
+  --acb-green: #10b981;
+}
+
+body {
+  background-color: var(--acb-bg);
+  color: white;
+}
+
+.glass-card {
+  background: rgba(17, 24, 39, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+}
+
+.glass-card-gold {
+  background: linear-gradient(135deg, rgba(212, 160, 23, 0.12), transparent);
+  border: 1px solid rgba(212, 160, 23, 0.25);
+  backdrop-filter: blur(12px);
+  border-radius: 1rem;
+}
+
+.safe-area-pb {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}

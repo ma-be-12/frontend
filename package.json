@@ -1,0 +1,24 @@
+{
+  "name": "adama-city-brain",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Adama City Brain - portals, dashboards, citizen and emergency command center.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "lucide-react": "^1.17.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0"
+  }
+}

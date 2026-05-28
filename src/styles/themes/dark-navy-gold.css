@@ -1,0 +1,9 @@
+:root {
+  --acb-bg: #071220;
+  --acb-surface: rgba(255, 255, 255, 0.06);
+  --acb-border: rgba(255, 255, 255, 0.12);
+  --acb-text: rgba(255, 255, 255, 0.92);
+  --acb-muted: rgba(255, 255, 255, 0.68);
+  --acb-gold: #c9a227;
+}
+
